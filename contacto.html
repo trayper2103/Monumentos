@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacta con nosotros</title>
+</head>
+<body>
+    <header>
+        <h1>Puente Nuevo de Ronda</h1> 
+        <a href="historia.html"><img src="https://static.costadelsolmalaga.org/malaga/subidas/imagenes/3/7/arc_384273_g.jpg" width=800 </a>
+        <hr>
+        <nav>
+        <a href="index.html">Inicio</a> <a href="historia.html">Historia</a> <a href="contacto.html">Contactar con nuestra asociación</a>  <a href="enlaces.html">Enlaces</a>
+        <hr>
+    </nav>
+    </header> 
+    <h1> Formulario para contactar con nosotros:</h1>
+    Nombre: <input type="text" name="inputNombre"><br>
+    Apellidos: <input type="text" name="inputApellidos"><br>
+    Email: <input type="email" name="inputEmail"><br>
+    Género: <br>
+    <input type="radio" name="radioSeleccion"> Mujer<br>
+    <input type="radio" name="radioSeleccion"> Hombre<br>
+    <form name="inicioSesion" action="http://miweb.es/gestionaSesión.php" method="GET"> 
+      Ingresa aqui tu mensaje:<br>
+      <textarea name="textareaComentarios" id="idTextareaComentarios" cols="30" rows="10"></textarea><br>
+    <input type="checkbox" name="checkboxVerificacion"> Deseo recibir publicidad futura en mi dirección email <br>
+
+    Procedencia:
+      <select name="selectcountry" id="idSelectCountry">
+        <optgroup label="Europa">
+            <option value="Restodeeuropa">Resto de Europa</option>
+            <option value="España">España</option>
+            <option value="ReinoUnido">Reino Unido</option>
+        </optgroup>
+        <optgroup label="Resto del Mundo">
+            <option value="América">América</option>
+            <option value="Asia">Asia</option>
+            <option value="Africa">Africa</option>
+            <option value="Oceania">Oceania</option>
+        </optgroup><br>
+      </select><br>
+       Ingresa el archivo que quieras adjuntar <input type="file" name="fileSubirArchivo"><br>
+       <input type="submit" name="submitFormulario" value="Enviar"><input type="reset" name="botonBorrar" value="Borrar todo">
+    <footer>TERESA RAYA PEREZ, 2ºBACHILLERATO CC</footer>  
+
+    
+</body>
+</html>
